@@ -1,6 +1,3 @@
-"""
-Recognize phone numbers in Germany
-"""
 
 import re
 
