@@ -1,16 +1,14 @@
 
-# itertools
+How to flatten a list of lists?
+===============================
 
-### What it is good for?
+The builtin module `itertools` contains plenty of functions to work with lists and iterators.
+Most functions in this module return *iterators* themselves, so they can be consumed by loops or `next()`. You can also convert them to a list.
 
-`itertools` contains plenty of functions to work with lists and iterators.
+Below you find a few examples:
 
-Most functions in this module return *iterators* themselves, so you can use their result once or convert it to a list.
+.. literalinclude:: example_itertools.py
 
-### Installed with Python by default
+.. seealso:: 
 
-yes
-
-### Where to learn more?
-
-[https://docs.python.org/3/library/itertools.html](https://docs.python.org/3/library/itertools.html)
+    `Documentation of the itertools module <https://docs.python.org/3/library/itertools.html>`__
