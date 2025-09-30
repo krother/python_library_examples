@@ -25,15 +25,15 @@ Reading and Writing Files
 .. toctree:: 
    :maxdepth: 2
 
+   json/README.rst
    xml/README.rst
+   zipfile/README.rst
 
 
 ::
-   
-   json](json/) | read/write JSON files |
+
    pydocx](pydocx/) | read Word documents |
    pypdf2](pypdf2/) | merge PDF documents |
-   zipfile](zipfile/) | read and write .zip files |
    librosa (external)](https://librosa.org/) | process and analyze sound and music |
 
 
@@ -43,6 +43,7 @@ Data Science
    numpy](numpy/) | fast numerical calculations |
    pandas](pandas/) | analyze tabular data |
    polars
+   narwhals
 
    scipy](scipy/) | scientific calculations |
    scikit-learn](sklearn/) | Machine Learning |
@@ -68,7 +69,6 @@ Image Processing
 ----------------
 
    pillow - image manipulation](pillow/) |  |
-   ipythonblocks](ipythonblocks/) | drawing blocks in notebooks |
    pytesseract](pytesseract/) | extract text from images (OCR) |
    scikit-image](scikit_image/) | Advanced image processing |
    CV2 (external)](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html) | processing camera images and movies |

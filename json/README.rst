@@ -10,7 +10,7 @@ The `json` modules utilizes the similarity of the JSON format to Python dictiona
 
    import json
 
-   data = {"apples": 1, "bananas": "two", "cherries': [3,4,5]}
+   data = {"apples": 1, "bananas": "two", "cherries": [3,4,5]}
    with open("data.json", "w") as f:
         jj = json.dumps(data)
         f.write(jj)

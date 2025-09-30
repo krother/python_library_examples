@@ -10,8 +10,8 @@ The `os` module provides an easy way to interact with files, directories and oth
 
    print(os.path.exists('README.rst'))
 
-How to copy or remove a file from Python?
-=========================================
+How to copy or remove a file?
+=============================
 
 `os` does these as well:
 
