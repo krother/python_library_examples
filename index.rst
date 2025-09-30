@@ -49,7 +49,7 @@ Data Science
    scikit-learn](sklearn/) | Machine Learning |
    PuLP](PuLP/) | linear equation solver |
    fuzzywuzzy](fuzzywuzzy/) | fuzzy text search |
-   vader](vader/) | sentiment analysis |
+   vader/README.rst
    statsmodels (external)](http://statsmodels.sourceforge.net/) | Hypothesis tests and statistical models |
 
 
