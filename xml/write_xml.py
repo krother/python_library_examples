@@ -1,37 +1,19 @@
-# source: https://www.geeksforgeeks.org/reading-and-writing-xml-files-in-python/
 
 import xml.etree.ElementTree as ET
 
-# This is the parent (root) tag
-# onto which other tags would be
-# created
-data = ET.Element('chess')
+data = ET.Element('play')
  
-# Adding a subtag named `Opening`
-# inside our root tag
-element1 = ET.SubElement(data, 'Opening')
+# add subtags with attributes
+actors = ET.SubElement(data, 'actors')
  
-# Adding subtags under the `Opening`
-# subtag
-s_elem1 = ET.SubElement(element1, 'E4')
-s_elem2 = ET.SubElement(element1, 'D4')
+ham = ET.SubElement(actors, 'actor')
+ham.set('name', 'Hamlet')
+ham.text = "Hamlet, the Prince of Denmark"
+
+oph = ET.SubElement(actors, 'actress')
+oph.set('name', 'Ophelia')
+oph.text = "Ophelia"
  
-# Adding attributes to the tags under
-# `items`
-s_elem1.set('type', 'Accepted')
-s_elem2.set('type', 'Declined')
- 
-# Adding text between the `E4` and `D5`
-# subtag
-s_elem1.text = "King's Gambit Accepted"
-s_elem2.text = "Queen's Gambit Declined"
- 
-# Converting the xml data to byte object,
-# for allowing flushing data to file
-# stream
-b_xml = ET.tostring(data)
- 
-# Opening a file under the name `items2.xml`,
-# with operation mode `wb` (write + binary)
-with open("GFG.xml", "wb") as f:
-    f.write(b_xml)
+# write as a binary string
+with open("actors.xml", "wb") as f:
+    f.write(ET.tostring(data))
