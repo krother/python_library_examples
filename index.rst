@@ -76,8 +76,7 @@ Image Processing
 Databases
 ---------
 
-   duckdb
-   pymongo](pymongo/) | adapter for the MongoDB NoSQL database |
+   pymongo/README.rst
    sqlite3](sqlite3/) | a simple SQL database |
    milvus
 

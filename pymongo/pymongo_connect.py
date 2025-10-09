@@ -1,10 +1,6 @@
-
-# full pymongo documentation
-# http://api.mongodb.org/python/current/
-
 import pymongo
 
-client = pymongo.MongoClient("localhost", 27017)  # parameters not necessary
+client = pymongo.MongoClient("localhost", 27017)  # not necessary on localhost
 db = client.test
 print(db.name)
 
@@ -12,7 +8,6 @@ print(db.my_collection)
 db.my_collection.insert_one({"x": 10})
 db.my_collection.insert_one({"x": 8})
 db.my_collection.insert_one({"x": 11})
-
 
 # get one entry
 print(db.my_collection.find_one())
