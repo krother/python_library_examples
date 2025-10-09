@@ -40,10 +40,11 @@ Reading and Writing Files
 Data Science
 ------------
 
-   numpy](numpy/) | fast numerical calculations |
-   pandas](pandas/) | analyze tabular data |
-   polars
-   narwhals
+.. toctree:: 
+   :maxdepth: 2
+
+   numpy/README.rst
+   pandas/README.rst
 
    scipy](scipy/) | scientific calculations |
    scikit-learn](sklearn/) | Machine Learning |
