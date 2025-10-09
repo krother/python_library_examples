@@ -1,6 +1,3 @@
-"""
-Minimalistic pac game
-"""
 import curses
 import random
 import time
@@ -22,6 +19,7 @@ win.nodelay(True)
 
 
 def draw(level, player, ghost, screen, win):
+    """create a 2D landscape"""
     screen.clear()
     for y, row in enumerate(level):
         for x, char in enumerate(row):
@@ -32,12 +30,8 @@ def draw(level, player, ghost, screen, win):
     screen.refresh()
 
 
-def get_keyboard(win):
-    char = win.getch()
-    return KEY_COMMANDS.get(char)
-
-
 def move(position, direction, level):
+    """change positions"""
     x, y = position
     dx, dy = direction
     nx, ny = x + dx, y + dy
@@ -47,6 +41,7 @@ def move(position, direction, level):
 
 
 def move_player(player, direction, level):
+    """changes position and eats dots"""
     x, y = move(player, direction, level)
     level[y] = level[y][:x] + " " + level[y][x+1:]
     return x, y
@@ -56,6 +51,10 @@ def move_ghost(ghost, level):
     direction = random.choice(list(KEY_COMMANDS.values())[:-1])
     return move(ghost, direction, level)
 
+
+def get_keyboard(win):
+    char = win.getch()
+    return KEY_COMMANDS.get(char)
 
 def pac_game(screen):
     """called by curses"""

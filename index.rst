@@ -99,11 +99,7 @@ User Interfaces
 
    tqdm/README.rst
    tkinter/README.rst
-
-   curses](curses/) | interactive terminal interface |
-   streamlit
-
-
+   curses/README.rst
 
 Acknowledgements
 ----------------
