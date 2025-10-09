@@ -34,7 +34,6 @@ Reading and Writing Files
 
    pydocx](pydocx/) | read Word documents |
    pypdf2](pypdf2/) | merge PDF documents |
-   librosa (external)](https://librosa.org/) | process and analyze sound and music |
 
 
 Data Science
@@ -95,9 +94,13 @@ Web programming
 User Interfaces
 ---------------
 
+.. toctree:: 
+   :maxdepth: 2
+
+   tqdm/README.rst
+   tkinter/README.rst
+
    curses](curses/) | interactive terminal interface |
-   tkinter](tkinter/) | graphical user interfaces |
-   tqdm](tqdm/) | draw progress bars |
    streamlit
 
 
