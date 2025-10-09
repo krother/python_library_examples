@@ -44,8 +44,8 @@ Data Science
 
    numpy/README.rst
    pandas/README.rst
+   scipy/README.rst
 
-   scipy](scipy/) | scientific calculations |
    scikit-learn](sklearn/) | Machine Learning |
    PuLP](PuLP/) | linear equation solver |
    fuzzywuzzy](fuzzywuzzy/) | fuzzy text search |
@@ -60,10 +60,6 @@ Plotting
    matplotlib](matplotlib/) | plotting diagrams |
    NetworkX](networkx/) | analyze and plot graphs |
    wordcloud](wordcloud/) | plot word clouds |
-   seaborn (external)](https://seaborn.pydata.org/) | a more powerful interface for matplotlib |
-   altair (external)](https://altair-viz.github.io/) | plotting library with JSON backend |
-   geopandas (external)](http://geopandas.org/) | plot DataFrames on maps |
-   panel (external)](http://panel.pyviz.org/) | create interactive plots |
 
 Image Processing
 ----------------
@@ -71,22 +67,20 @@ Image Processing
    pillow - image manipulation](pillow/) |  |
    pytesseract](pytesseract/) | extract text from images (OCR) |
    scikit-image](scikit_image/) | Advanced image processing |
-   CV2 (external)](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html) | processing camera images and movies |
 
 Databases
 ---------
 
    pymongo/README.rst
    sqlite3](sqlite3/) | a simple SQL database |
-   milvus
 
 Web programming
 ---------------
 
+   httpx/README.rst
    BeautifulSoup4](beautiful_soup/) | parse HTML pages |
    email](email/) | send emails |
    flask](flask/) | a simple web server |
-   HTTPX!! requests](requests/) | retrieve web pages |
    OAUTH - authentication](oauth_git/) | authentication |
    scrapy (external)](http://scrapy.org/) | collect data from entire websites |
 
