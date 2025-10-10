@@ -5,7 +5,7 @@ import wordcloud
 import this
 
 # store the Zen of Python in a string
-text = ''.join([this.d.get(c, ' ') for c in this.s]).lower()
+text: str = ''.join([this.d.get(c, ' ') for c in this.s]).lower()
 
 # leave a blank square in the cloud
 mask = np.zeros((500, 500, 3), np.uint8)
@@ -19,4 +19,7 @@ cloud = wordcloud.WordCloud(background_color="white",
 
 plt.figure(num = None, figsize = (8, 8))
 plt.imshow(cloud, interpolation='bilinear')
+plt.xticks([], None)
+plt.yticks([], None)
 plt.savefig('cloud.png')
+plt.show()

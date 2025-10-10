@@ -56,10 +56,14 @@ Data Science
 Plotting
 --------
 
+.. toctree:: 
+   :maxdepth: 2
+
+   wordcloud/README.rst
+
    folium](folium/) | drawing maps |
    matplotlib](matplotlib/) | plotting diagrams |
    NetworkX](networkx/) | analyze and plot graphs |
-   wordcloud](wordcloud/) | plot word clouds |
 
 Image Processing
 ----------------
