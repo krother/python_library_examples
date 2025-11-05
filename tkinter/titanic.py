@@ -1,6 +1,5 @@
-# Example GUI built with Tkinter.
-
 import tkinter as tk
+from tkinter.messagebox import showwarning
 from PIL import Image, ImageTk
 
 
@@ -12,8 +11,8 @@ class Application(tk.Frame):
         self.pack()
         self.create_widgets()
 
-    def sos(self):
-        print("SOS - we are sinking!")
+    def send_sos(self):
+        showwarning(title="S.O.S.", message="we are sinking")
 
     def collision(self):
         photo = ImageTk.PhotoImage(self.titanic2)
@@ -33,7 +32,7 @@ class Application(tk.Frame):
 
         self.sos = tk.Button(self, fg="red")
         self.sos["text"] = "Send out S.O.S."
-        self.sos["command"] = self.sos
+        self.sos["command"] = self.send_sos
         self.sos.pack(side="bottom", fill="both", expand="yes")
 
         self.sink = tk.Button(self)

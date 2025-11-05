@@ -2,8 +2,11 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 s  = SentimentIntensityAnalyzer()
 
-texta = "today is a great day to code!"
-textb = "syntax errors really suck"
+text_a = "\ntoday is a great day to code!"
+text_b = "\nsyntax errors really suck"
 
-print(texta, s.polarity_scores(texta))
-print(textb, s.polarity_scores(textb))
+print(text_a)
+print(s.polarity_scores(text_a))
+
+print(text_b)
+print(s.polarity_scores(text_b))

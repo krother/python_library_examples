@@ -1,7 +1,7 @@
 
-# Python Package Examples
+# Python Library Examples
 
-Here you find easy copy-paste examples of my favourite Python packages.
+Here you find easy copy-paste examples of my favourite Python libraries.
 
 ## Builtin modules
 
@@ -106,6 +106,6 @@ Thanks to Emely Henninger for finding a nasty bug in networkx!
 
 ## License
 
-© 2017 Dr. Kristian Rother (krother@academis.eu)
+© 2025 Dr. Kristian Rother (krother@academis.eu)
 
 The code is distributed under the conditions of the MIT License. See :::file LICENSE.TXT for details.
