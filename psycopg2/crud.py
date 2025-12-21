@@ -1,4 +1,5 @@
 # pip install psycopg2-binary
+# uv add psycopg2-binary
 
 import psycopg2
 
@@ -38,6 +39,7 @@ flowers = [
 ]
 
 cur.executemany(
+    # the %s placeholders prevent SQL injection
     "INSERT INTO flowers (name, latin_species, color) VALUES (%s, %s, %s);",
     flowers
 )
