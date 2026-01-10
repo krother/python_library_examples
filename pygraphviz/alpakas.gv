@@ -1,0 +1,54 @@
+digraph {
+	node [color=lightblue fontname=arial style=filled]
+	edge [color=red dir=back]
+	{
+		rank=same
+		lamaglama [label="Lama\n(Lama glama)\nLast-, Woll- und Fleischkamel"]
+		guanaco [label="Guanako\n(Lama guanicoe)\nwilde Lamaart"]
+		vicunja [label="Vikunja\n(Vicugna vicugna)\nWollkamel"]
+		alpaka [label="Alpaka\n(Vicugna pacos)\nWoll- und Therapiekamel"]
+		baktrianus [label="Baktrisches Kamel
+(Camelus bactrianus)
+Trampeltier, 2 Höcker"]
+		dromedarius [label="Dromedar
+(Camelus dromedarius)
+1 Höcker"]
+		hesternus [label="nordamerik. Riesenkamel
+(Camelops hesternus)
+um 10000 v. Chr. ausgestorben"]
+	}
+	{
+		rank=same
+		lama [label="Gattung Lama
+(Lama)"]
+		vicugna [label="Gattung Vikunja
+(Vicugna)"]
+		camelops [label="Gattung Camelops"]
+	}
+	{
+		rank=same
+		camelus [label="Altweltkamele
+(Camelus)"]
+		lamini [label="Neuweltkamele
+(Lamini)"]
+	}
+	{
+		rank=same
+		camelidae [label="Kamele
+(camelidae)"]
+	}
+	laminops [label="" color=black shape=point]
+	camelidae -> camelus [color=black dir=none]
+	camelidae -> laminops [color=black dir=none]
+	laminops -> lamini [color=black dir=none]
+	laminops -> camelops [dir=none]
+	camelus -> baktrianus [color=black dir=none]
+	camelus -> dromedarius [color=black dir=none]
+	lamini -> lama [color=black dir=none]
+	lamini -> vicugna [color=black dir=none]
+	lama -> lamaglama [color=black dir=none]
+	lama -> guanaco [color=black dir=none]
+	vicugna -> vicunja [color=black dir=none]
+	vicugna -> alpaka [color=black dir=none]
+	camelops -> hesternus [color=red dir=none]
+}
