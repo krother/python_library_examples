@@ -23,4 +23,4 @@ cities["rank"] = pd.Series(rank) / max(rank.values())
 plt.figure()
 nx.draw(g, node_color=cities["rank"], cmap='coolwarm', labels=dict(zip(g.nodes(), g.nodes())))
 
-plt.show()
+plt.savefig("pagerank.png")

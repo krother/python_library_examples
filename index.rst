@@ -64,6 +64,15 @@ Read and Write Files
    pydocx/README.rst
    pypdf2/README.rst
 
+Plotting
+--------
+
+.. toctree:: 
+   :maxdepth: 2
+
+   matplotlib/README.rst
+   folium/README.rst
+   networkx/README.rst
 
 Data Science
 ------------
@@ -78,15 +87,6 @@ Data Science
    PuLP/README.rst
 
 
-Plotting
---------
-
-.. toctree:: 
-   :maxdepth: 2
-
-   folium](folium/) | drawing maps |
-   matplotlib](matplotlib/) | plotting diagrams |
-   NetworkX](networkx/) | analyze and plot graphs |
 
 Image Processing
 ----------------
