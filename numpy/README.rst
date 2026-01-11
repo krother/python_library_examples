@@ -1,6 +1,6 @@
 
-How to draw a fractal image with NumPy?
-=======================================
+How to draw a fractal image?
+============================
 
 .. figure:: mandelbrot.png
 

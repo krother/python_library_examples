@@ -1,6 +1,6 @@
 
-How to section a panda into hexagons with pandas?
-=================================================
+How to divide a panda image into hexagons?
+==========================================
 
 .. figure:: hexpanda.png
 

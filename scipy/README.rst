@@ -1,6 +1,6 @@
 
-How to optimize parameters of a function with SciPy?
-====================================================
+How to optimize parameters of a function?
+=========================================
 
 .. figure:: fit.png
 

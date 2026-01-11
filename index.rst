@@ -4,6 +4,8 @@ Python Library Examples
 This my spellbook: a collection of copy-paste recipes using my favourite Python libraries.
 Once you are familiar with the `basics of Python <https://www.academis.eu/python_basics/>`__ and know how to install a library, most of the recipes should be accessible for beginners.
 
+The purpose of this collection is to give you an impression what kind of things are possible with Python.
+
 Numbers
 -------
 
@@ -26,12 +28,13 @@ Text
 ----
 
 .. toctree:: 
-   :maxdepth: 2
+   :maxdepth: 1
 
    re/README.rst
    thefuzz/README.rst
    vader/README.rst
-   
+   wordcloud/README.rst
+
 Date and Time
 -------------
 .. toctree:: 
@@ -82,8 +85,6 @@ Plotting
 .. toctree:: 
    :maxdepth: 2
 
-   wordcloud/README.rst
-
    folium](folium/) | drawing maps |
    matplotlib](matplotlib/) | plotting diagrams |
    NetworkX](networkx/) | analyze and plot graphs |
@@ -104,18 +105,20 @@ Databases
 Web programming
 ---------------
 
+.. toctree:: 
+   :maxdepth: 1
+
    httpx/README.rst
-   BeautifulSoup4](beautiful_soup/) | parse HTML pages |
-   email](email/) | send emails |
+   BeautifulSoup4/README.rst
+   email/README.rst
    flask](flask/) | a simple web server |
-   OAUTH - authentication](oauth_git/) | authentication |
    scrapy (external)](http://scrapy.org/) | collect data from entire websites |
 
 User Interfaces
 ---------------
 
 .. toctree:: 
-   :maxdepth: 2
+   :maxdepth: 1
 
    tqdm/README.rst
    tkinter/README.rst
