@@ -1,5 +1,6 @@
 
 How to find the most similar string?
+====================================
 
 The `thefuzz` library does fuzzy string matching using the `Levenshtein distance <https://en.wikipedia.org/wiki/Levenshtein_distance>`__.
 It is great to match strings with typos.
