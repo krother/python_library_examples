@@ -12,6 +12,6 @@ dependencies = [
     "sphinx-copybutton>=0.5.2",
     "sphinx-design>=0.6.1",
     "vadersentiment>=3.3.2",
-    "windows-curses>=2.4.1",
+    #"windows-curses>=2.4.1",
     "xlrd>=2.0.2",
 ]
