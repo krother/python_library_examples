@@ -1,26 +1,55 @@
 Python Library Examples
 =======================
 
-Here you find easy copy-paste examples of my favourite Python libraries.
+This my spellbook: a collection of copy-paste recipes using my favourite Python libraries.
+Once you are familiar with the `basics of Python <https://www.academis.eu/python_basics/>`__ and know how to install a library, most of the recipes should be accessible for beginners.
+
+Numbers
+-------
+
+.. toctree:: 
+   :maxdepth: 2
+
+   math/README.rst
+   random/README.rst
 
 
-Builtin modules
----------------
+Lists and Dictionaries
+----------------------
 
 .. toctree:: 
    :maxdepth: 2
 
    itertools/README.rst
-   math/README.rst
-   os/README.rst
-   pathlib/README.rst
-   random/README.rst
+
+Text
+----
+
+.. toctree:: 
+   :maxdepth: 2
+
    re/README.rst
-   sys/README.rst
+   thefuzz/README.rst
+   vader/README.rst
+   
+Date and Time
+-------------
+.. toctree:: 
+   :maxdepth: 2
+
    time/README.rst
 
-Reading and Writing Files
--------------------------
+Paths and Directories
+---------------------
+
+.. toctree:: 
+   :maxdepth: 2
+
+   os/README.rst
+   pathlib/README.rst
+
+Read and Write Files
+--------------------
 
 .. toctree:: 
    :maxdepth: 2
@@ -28,12 +57,8 @@ Reading and Writing Files
    json/README.rst
    xml/README.rst
    zipfile/README.rst
-
-
-::
-
-   pydocx](pydocx/) | read Word documents |
-   pypdf2](pypdf2/) | merge PDF documents |
+   pydocx/README.rst
+   pypdf2/README.rst
 
 
 Data Science
@@ -48,8 +73,6 @@ Data Science
 
    scikit-learn](sklearn/) | Machine Learning |
    PuLP](PuLP/) | linear equation solver |
-   fuzzywuzzy](fuzzywuzzy/) | fuzzy text search |
-   vader/README.rst
    statsmodels (external)](http://statsmodels.sourceforge.net/) | Hypothesis tests and statistical models |
 
 
@@ -97,6 +120,15 @@ User Interfaces
    tqdm/README.rst
    tkinter/README.rst
    curses/README.rst
+
+The Python Interpreter
+----------------------
+
+.. toctree:: 
+   :maxdepth: 2
+
+   sys/README.rst
+
 
 Acknowledgements
 ----------------
