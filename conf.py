@@ -41,7 +41,6 @@ html_css_files = [
 ]
 
 html_theme_options = {
-    'logo': 'academis.png',
     'github_user': 'krother',
     'github_repo': 'python_library_examples',
     'show_relbar_top' : True,
