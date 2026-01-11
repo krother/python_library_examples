@@ -1,22 +1,22 @@
 
-# PyPDF2
+How to merge multiple PDFs into one?
+------------------------------------
 
-### What is it good for?
+The `PyPDF2` library manipulates PDF documents on the page level, e.g. merging two or more PDFs.
 
-`PyPDF2` manipulates PDF documents on the page level, e.g. merging two or more PDFs.
+Install it with:
 
+.. code::
 
-### Installed with Python or Anaconda
-
-no
-
-### How to install it?
-
-    :::text
     pip install pypdf2
 
-### Where to learn more?
+The following code merges all PDF files from the input path into a single one:
 
-There are a few other PDF libraries that allow to read PDFs or create them from scratch.
-See :::file extras/pdf.py or :::file extras/pdf2txt.py
+.. literalinclude:: merge.py
 
+How to merge multiple images into a PDF
+---------------------------------------
+
+With `PyPDF2` you can also merge images into a PDF:
+
+.. literalinclude:: merge_images.py
