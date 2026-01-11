@@ -23,6 +23,7 @@ Lists and Dictionaries
    :maxdepth: 2
 
    itertools/README.rst
+   random/random_list.rst
 
 Text
 ----
@@ -99,8 +100,11 @@ Image Processing
 Databases
 ---------
 
+.. toctree:: 
+   :maxdepth: 1
+
    pymongo/README.rst
-   sqlite3](sqlite3/) | a simple SQL database |
+   sqlite3/README.rst
 
 Web programming
 ---------------
@@ -110,9 +114,8 @@ Web programming
 
    httpx/README.rst
    BeautifulSoup4/README.rst
+   flask/README.rst
    email/README.rst
-   flask](flask/) | a simple web server |
-   scrapy (external)](http://scrapy.org/) | collect data from entire websites |
 
 User Interfaces
 ---------------

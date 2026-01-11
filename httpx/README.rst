@@ -1,5 +1,5 @@
 
-How to Download a web page?
+How to download a web page?
 ===========================
 
 The `httpx` library sends HTTP requests to web pages and allows you to read their content.
@@ -16,8 +16,8 @@ The following code reads a static web page:
 
 .. literalinclude:: example_requests.py
 
-How to submit a HTTP GET request from Python?
-=============================================
+How to submit a HTTP GET request?
+=================================
 
 Here is a search with HTTP GET parameters:
 
