@@ -74,10 +74,8 @@ Data Science
    numpy/README.rst
    pandas/README.rst
    scipy/README.rst
-
-   scikit-learn](sklearn/) | Machine Learning |
-   PuLP](PuLP/) | linear equation solver |
-   statsmodels (external)](http://statsmodels.sourceforge.net/) | Hypothesis tests and statistical models |
+   sklearn/README.rst
+   PuLP/README.rst
 
 
 Plotting
