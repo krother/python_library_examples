@@ -74,6 +74,11 @@ Plotting
    folium/README.rst
    networkx/README.rst
 
+Image Processing
+----------------
+
+   pillow/README.rst
+
 Data Science
 ------------
 
@@ -86,14 +91,6 @@ Data Science
    sklearn/README.rst
    PuLP/README.rst
 
-
-
-Image Processing
-----------------
-
-   pillow - image manipulation](pillow/) |  |
-   pytesseract](pytesseract/) | extract text from images (OCR) |
-   scikit-image](scikit_image/) | Advanced image processing |
 
 Databases
 ---------
