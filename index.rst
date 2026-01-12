@@ -77,6 +77,9 @@ Plotting
 Image Processing
 ----------------
 
+.. toctree:: 
+   :maxdepth: 1
+
    pillow/README.rst
 
 Data Science
