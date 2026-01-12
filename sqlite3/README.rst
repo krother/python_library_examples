@@ -13,6 +13,6 @@ Here is a usage example:
 
 .. literalinclude:: example_sqlite.py
 
-.. seealso:
+.. seealso::
 
    `sqlite3 documentation <https://docs.python.org/3/library/sqlite3.html>`__

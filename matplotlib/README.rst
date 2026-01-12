@@ -44,7 +44,7 @@ How to draw a pie chart?
 
 .. figure:: piechart.png
 
-.. literalinclude piechart.py
+.. literalinclude:: piechart.py
 
 
 .. seealso::

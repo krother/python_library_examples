@@ -34,5 +34,5 @@ Instead of parsing a string object, you could parse from the file directly with 
 
 .. seealso::
     
-    `Documentation of the json module <docs.python.org/3/library/json.html>`__
+   `Documentation of the json module <https://docs.python.org/3/library/json.html>`__
     

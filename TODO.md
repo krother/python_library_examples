@@ -8,3 +8,8 @@
    narwhals
    duckdb
    
+
+playwright/README.md - not in toctree
+playwright/web_testing/README.rst - not in toctree
+re/exercises/regex_exercises.md - not in toctree
+sqlalchemy/README.md - not in toctree

@@ -50,7 +50,7 @@ Paths and Directories
    :maxdepth: 2
 
    os/README.rst
-   pathlib/README.rst
+   pathlib/README.rst # TODO
 
 Read and Write Files
 --------------------
@@ -111,7 +111,7 @@ Web programming
    :maxdepth: 1
 
    httpx/README.rst
-   BeautifulSoup4/README.rst
+   beautiful_soup/README.rst
    flask/README.rst
    email/README.rst
 
