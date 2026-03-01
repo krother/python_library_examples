@@ -4,7 +4,7 @@ How to train a machine learning model?
 
 The **Machine Learning** library `scikit-learn` contains methods for:
 
-- Supervised Learning (regression and classification, e.g. logistic regression, Support Vector Machines Random Forests)
+- Supervised Learning (regression and classification, e.g. logistic regression, Support Vector Machines, Random Forests)
 - Unsupervised Learning (clustering, PCA)
 - Preprocessing (scaling, text vectorization)
 - Model validation

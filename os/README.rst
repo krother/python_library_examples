@@ -19,7 +19,7 @@ How to copy or remove a file?
 
    import os
 
-   os.system('cp README.md copy.md')
+   os.system('python -c "print(6*7)"')
 
    os.remove('copy.md')
 
@@ -54,7 +54,7 @@ The following example starts a program to list contents of a folder and redirect
 
     `os.system` does not allow for any communication with the running process.
     If it crashes or runs forever, your Python code won't learn about it.
-    A safer alternative is the `multiprocessing` module.
+    A safer alternative is the `subprocess` module.
 
 .. seealso::
     

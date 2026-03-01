@@ -1,5 +1,5 @@
 
-from pulp import *
+from pulp import LpProblem, LpMinimize, LpVariable, LpInteger, lpSum, LpStatus, value
 
 prob = LpProblem("PULPTEST", LpMinimize)
 
@@ -48,5 +48,4 @@ for y in YCOORD:
         for n in NUMBERS:
             if value(allocation[x][y][n]) == 1:
                 print(n, end=' ')
-                #print(x, y, n)
     print()

@@ -15,6 +15,6 @@ print(list(p))
 c = itertools.combinations([1, 2, 3], 2)
 print(list(c))
 
-# Pairwise combinations
+# Cartesian product (all pairs of of two elements)
 pr = itertools.product("ABC", [1, 2, 3])
 print(list(pr))

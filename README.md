@@ -106,6 +106,6 @@ Thanks to Emely Henninger for finding a nasty bug in networkx!
 
 ## License
 
-© 2025 Dr. Kristian Rother (krother@academis.eu)
+© 2026 Dr. Kristian Rother (krother@academis.eu)
 
 The code is distributed under the conditions of the MIT License. See :::file LICENSE.TXT for details.

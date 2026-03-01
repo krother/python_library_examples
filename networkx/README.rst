@@ -18,3 +18,7 @@ The nodes are colored according to their page rank score (more red=more central)
 The code uses the data in :download:`city_pairs.csv`:
 
 .. literalinclude:: page_rank.py
+
+.. seealso::
+
+   `NetworkX documentation <https://networkx.org/en/>`__

@@ -1,10 +1,10 @@
 
 # create a hex-binned plot from randomly sampled panda pixels
 
-import pandas as pd
-import pylab as plt
-from PIL import Image
 import numpy as np
+import pandas as pd
+from matplotlib import pyplot as plt
+from PIL import Image
 
 # read image and convert it to a numpy array
 panda = np.array(Image.open('panda.png'))
@@ -25,6 +25,6 @@ sample = pixels.sample(n_points)
 coords = sample.index.to_frame().values
 df = pd.DataFrame({'x': coords[:,0], 'y': -coords[:,1], 'n': sample.values})
 
-df.plot.hexbin(x='x', y='y', gridsize=24, cmap=plt.get_cmap('Greys'))
+df.plot.hexbin(x='x', y='y', gridsize=24, cmap="Greys")
 
 plt.savefig('hexpanda.png')

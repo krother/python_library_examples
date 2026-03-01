@@ -41,4 +41,4 @@ How to create turtle graphics?
 
 .. seealso::
     
-    `pillow.readthedocs.org <https://pillow.readthedocs.org>`__
+    `pillow.readthedocs.io <https://pillow.readthedocs.io>`__

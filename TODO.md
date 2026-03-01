@@ -1,15 +1,5 @@
 
-   seaborn (external)](https://seaborn.pydata.org/) | a more powerful interface for matplotlib |
-   altair (external)](https://altair-viz.github.io/) | plotting library with JSON backend |
-   geopandas (external)](http://geopandas.org/) | plot DataFrames on maps |
-   panel (external)](http://panel.pyviz.org/) | create interactive plots |
-   CV2 (external)](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html) | processing camera images and movies |
-   milvus
-   narwhals
-   duckdb
-   
+# Review Findings
 
-playwright/README.md - not in toctree
-playwright/web_testing/README.rst - not in toctree
-re/exercises/regex_exercises.md - not in toctree
-sqlalchemy/README.md - not in toctree
+- **`index.rst` line 53** — `pathlib/README.rst # TODO`: the `pathlib/` directory does not exist, and toctree entries do not support inline comments. This causes a Sphinx build error.
+- **`moviepy/end_credits.py`** — uses `moviepy.editor` (MoviePy 1.x API, removed in 2.x) and `faker.Factory` (deprecated since Faker 4.0). Needs a full rewrite for MoviePy 2.x.

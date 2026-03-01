@@ -15,7 +15,9 @@ print()
 
 
 # upload file
-open("hello.txt", "w").write("hello world\n")
+with open("hello.txt", "w") as f:
+    f.write("hello world\n")
+
 sftp_client=client.open_sftp()
 sftp_client.put("hello.txt", "remote_hello.txt")
 sftp_client.close()

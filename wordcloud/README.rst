@@ -16,3 +16,7 @@ Install the library with:
 Then create the cloud image:
 
 .. literalinclude:: create_wordcloud.py
+
+.. seealso:: 
+    
+    `amueller.github.io/word_cloud/ <https://amueller.github.io/word_cloud/>`__

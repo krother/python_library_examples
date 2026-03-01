@@ -9,6 +9,8 @@ The `sys.path` variable contains the current directory, everything from the `PYT
 
 .. code:: python3
 
+   import sys
+
    print(sys.path)
 
 
@@ -20,9 +22,7 @@ The first one is usually the name of the called script.
 
 .. code:: python3
 
-   import sys
-
-   print sys.argv
+   print(sys.argv)
 
 When you call this program with any of:
 

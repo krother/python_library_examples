@@ -1,7 +1,7 @@
 Python Library Examples
 =======================
 
-This my spellbook: a collection of copy-paste recipes using my favourite Python libraries.
+This is my spellbook: a collection of copy-paste recipes using my favourite Python libraries.
 Once you are familiar with the `basics of Python <https://www.academis.eu/python_basics/>`__ and know how to install a library, most of the recipes should be accessible for beginners.
 
 The purpose of this collection is to give you an impression what kind of things are possible with Python.
@@ -62,7 +62,7 @@ Read and Write Files
    xml/README.rst
    zipfile/README.rst
    pydocx/README.rst
-   pypdf2/README.rst
+   pypdf/README.rst
 
 Plotting
 --------
@@ -112,7 +112,6 @@ Web programming
 
    httpx/README.rst
    beautiful_soup/README.rst
-   flask/README.rst
    email/README.rst
 
 User Interfaces
@@ -142,7 +141,7 @@ Thanks to Emely Henninger for finding a nasty bug in networkx!
 
 .. topic:: License
 
-   © 2025 Dr. Kristian Rother (`kristian.rother@posteo.de`)
+   © 2026 Dr. Kristian Rother (`kristian.rother@posteo.de`)
    
    The code is distributed under the conditions of the MIT License. See :download:`LICENSE.TXT` for details.
    

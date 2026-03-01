@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 import wordcloud
 import this
 
-# store the Zen of Python in a string
+# extract the Zen of Python to a string
 text: str = ''.join([this.d.get(c, ' ') for c in this.s]).lower()
 
 # leave a blank square in the cloud

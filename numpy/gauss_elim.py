@@ -34,7 +34,7 @@ def create_linear_equation_sys(size):
     """creates a solvable linear equation system"""
     A = np.random.rand(size, size)
     # Ensure matrix A is invertible by checking the determinant
-    while np.linalg.det(A) == 0:
+    while abs(np.linalg.det(A)) < 1e-10:  # almost zero
         A = np.random.rand(size, size)
 
     solution = np.random.randint(-100, 100, size=size)  # random solution vector
@@ -53,4 +53,5 @@ if __name__ == '__main__':
     for i, M in enumerate(tasks, 1):
         print(f"\ntask {i}")
         result = round_output(solve_linear(M))
+        print(result)
         print("done")

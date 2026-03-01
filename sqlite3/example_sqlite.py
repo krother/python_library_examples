@@ -19,7 +19,7 @@ db.executescript(DB_SETUP)
 query = 'INSERT INTO person VALUES (?,?,?)'
 # The ?,?,? are a SQLite-specific way of formating strings.
 # There are special precautions against SQL injection
-db.execute(query, (1, "Hamlet", "the prince of Denkmark"))
+db.execute(query, (1, "Hamlet", "the prince of Denmark"))
 db.execute(query, (2, "Polonius", "Ophelias father"))
 
 # read data

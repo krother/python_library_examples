@@ -9,8 +9,7 @@ Install it with:
 
 .. code::
 
-    pip install thefuzz
-    python-Levenshtein
+    pip install thefuzz python-Levenshtein
 
 Here is a simple usage example:
 

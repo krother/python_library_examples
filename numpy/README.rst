@@ -6,7 +6,7 @@ How to draw a fractal image?
 
 The Numpy library makes it easy to work with matrices in Python.
 
-Because it is implemented in C, `numpy` accelerates many calculations. It is also type-safe - all elements of a matrix have the same type. Many of the most powerful Python libraries like `pandas`, `scikit-learn` and `PILLOW` have been built on top of numpy.
+Because it is implemented in C, `numpy` accelerates many calculations. It is also type-safe - all elements of a matrix have the same type. Many of the most powerful Python libraries like `pandas`, `scikit-learn` and `Pillow` have been built on top of numpy.
 
 Install it with:
 
@@ -14,7 +14,7 @@ Install it with:
 
     pip install numpy
 
-The following code draws the the Mandelbrot set:
+The following code draws the Mandelbrot set:
 
 .. literalinclude:: mandelbrot.py
 

@@ -1,6 +1,6 @@
 
 import smtplib
-from email.mime.text  import MIMEText
+from email.mime.text import MIMEText
 
 class MailAccount:
     """
@@ -10,7 +10,7 @@ class MailAccount:
                  sender_name, use_tls=False):
         self.server = server
         self.login = login
-        self.password = password
+        self.password = password   # Caution: use environment variable in production
         self.mail = sender_email
         self.sender = '"%s" <%s>'%(sender_name, sender_email)
         self.use_tls = use_tls
@@ -25,7 +25,7 @@ class MailAccount:
         msg = message.as_string()
 
         server = smtplib.SMTP(self.server)
-        server.set_debuglevel(1)
+        server.set_debuglevel(1)  # Caution: lots SMTP traffic - do not use in production
 
         if self.use_tls: # deliberately starts tls if using TLS
             server.ehlo()

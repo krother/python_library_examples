@@ -1,7 +1,6 @@
 # generate dice image
 
-from PIL import Image
-from PIL import ImageDraw
+from PIL import Image, ImageDraw
 
 five = Image.new('RGB', (64,64), '#80b940')
 d = ImageDraw.Draw(five)

@@ -18,4 +18,3 @@ Here are a couple of examples in Python:
    - `Regex golf <http://regex.alf.nu>`__ - Advanced exercises. Match as many phrases with as few key strokes as possible.
    - `Python Regex HOWTO <https://docs.python.org/3.12/howto/regex.html>`__
    - `docs.python.org/3/library/re.html <https://docs.python.org/3/library/re.html>`__
-   - `Quick Reference <http://www.night-ray.com/regex.pdf>`__ - a reference sheet for looking up metacharacters. Uses the **Python syntax**.

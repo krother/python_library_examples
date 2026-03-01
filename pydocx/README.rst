@@ -30,4 +30,4 @@ Writing a Word document is not very complicated either:
 
 .. seealso::
 
-   `python-docx.readthedocs.org <https://python-docx.readthedocs.org>`__
+   `python-docx.readthedocs.io <https://python-docx.readthedocs.io>`__

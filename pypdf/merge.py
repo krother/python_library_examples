@@ -1,6 +1,6 @@
 
 import os
-from PyPDF2 import PdfMerger
+from pypdf import PdfMerger
 from pathlib import Path
 
 input_path = Path("input")

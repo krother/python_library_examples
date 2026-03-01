@@ -19,7 +19,6 @@ params, pcov = curve_fit(func, x , ynoise)
 yfit = func(x, params[0], params[1])
 
 # plot the outcome:
-fig = plt.figure
 plt.plot(x, yfit, "k-")
 plt.plot(x, ynoise, "bx")
 plt.savefig('fit.png')

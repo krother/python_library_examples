@@ -1,5 +1,8 @@
+"""
+Draw a Koch curve using turtle graphics.
+"""
 
-from PIL import Image, ImageDraw, ImageFont, ImageFilter 
+from PIL import Image, ImageDraw
 import math
 
 
@@ -54,7 +57,6 @@ def snowflake(turtle, length, depth):
 
 
 if __name__ == '__main__':
-    """Main program. Starts the turtle and draws a snowflake."""
     # try different values for 'depth'
     t = Turtle()
     snowflake(t, 500, 1)

@@ -23,6 +23,6 @@ Run it from a terminal.
 
    It likely means that your window is too small.
 
-.. seealso::
+.. note::
 
    My first contact with curses was inspired by `manti_go <https://github.com/JoNiederhut/manti_go>`__ written by my course participants.

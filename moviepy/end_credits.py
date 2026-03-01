@@ -57,5 +57,5 @@ clip = mpy.VideoClip(make_frame, duration=DURATION)
 
 # mix text and logo together
 final = CompositeVideoClip([clip, LOGO])
-final.subclip(0, DURATION).write_videofile("abspann.avi", codec="h264", fps=24) 
+final.subclip(0, DURATION).write_videofile("abspann.avi", codec="libx264", fps=24) 
 #final.subclip(0, DURATION).write_videofile("abspann.mp4", codec="mpeg4", fps=24) 

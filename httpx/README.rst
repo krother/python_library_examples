@@ -10,7 +10,7 @@ Install `httpx` with:
 
 .. code::
 
-    pip install requests
+    pip install httpx
 
 The following code reads a static web page:
 
@@ -25,4 +25,4 @@ Here is a search with HTTP GET parameters:
 
 .. seealso::
 
-   `https://www.python-httpx.org/ <https://www.python-httpx.org/>`__
+   `www.python-httpxo.org/ <https://www.python-httpx.org/>`__

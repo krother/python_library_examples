@@ -73,7 +73,7 @@ def pac_game(screen):
     player = 1, 1
     ghost = 9, 9
     
-    while player != ghost and any([row for row in level if "." in row]):
+    while player != ghost and any(row for row in level if "." in row):
         ghost = move_ghost(ghost, level)
         draw(level, player, ghost, screen, win)
         if direction := get_keyboard(win):

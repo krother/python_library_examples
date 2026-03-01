@@ -29,4 +29,4 @@ The following code connects and runs a few queries:
 
 .. seealso::
 
-   `Pymongo documentation <http://api.mongodb.org/python/current/>`__
+   `Pymongo documentation <http://pymongo.readthedocs.io>`__

@@ -6,7 +6,11 @@ print(db.name)
 
 print(db.my_collection)
 db.my_collection.insert_one({"x": 10})
-db.my_collection.insert_one({"x": 8})
+
+db.my_collection.insert_many([
+    {"pi": 3.1415},
+    {"answer_to_everything": 42},
+    ])
 db.my_collection.insert_one({"x": 11})
 
 # get one entry

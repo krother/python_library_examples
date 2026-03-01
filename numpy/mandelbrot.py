@@ -6,7 +6,6 @@ http://www.everydayanalytics.ca
 import numpy as np
 from PIL import Image
 
-
 SIZE = 500
 
 x = np.linspace(-2.0, 1.0, SIZE)
@@ -20,7 +19,7 @@ z = np.zeros((SIZE, SIZE)) * 1j
 k = np.zeros((SIZE, SIZE))
 
 for i in range(100):
-    index = z < 2
+    index = np.abs(z) < 2
     z[index] = z[index] ** 2 + c[index]
     k[index] = k[index] + 1
 
