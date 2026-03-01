@@ -23,7 +23,8 @@ extensions = [
     ]
 
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'learning_goals.md', 'README.md']
+exclude_patterns = ['.venv', '_build', 'Thumbs.db', '.DS_Store', 'learning_goals.md', 'README.md',
+                    'TODO.md', 'CLAUDE.md', '.claude']
 
 language = 'en'
 
@@ -41,10 +42,6 @@ html_css_files = [
 ]
 
 html_theme_options = {
-    'github_user': 'krother',
-    'github_repo': 'python_library_examples',
-    'show_relbar_top' : True,
-    'show_relbar_bottom' : True,
     "source_repository": "https://github.com/krother/python_library_examples",
     "source_branch": "main",
     "source_directory": "",

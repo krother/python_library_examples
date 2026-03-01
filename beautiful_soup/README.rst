@@ -1,5 +1,6 @@
 
 How to parse a HTML page?
+=========================
 
 The `BeautifulSoup` library parses HTML pages into a tree like data structure.
 The data structure corresponds very much to the DOM model.

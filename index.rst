@@ -112,6 +112,7 @@ Web programming
 
    httpx/README.rst
    beautiful_soup/README.rst
+   playwright/README.rst
    email/README.rst
 
 User Interfaces
